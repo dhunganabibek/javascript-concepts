@@ -7,3 +7,6 @@
 5. Generators/Coroutines
 6. Event Reactive (Observables)  --- Rxjs
 7. Channel-oriented Concurrency (CSP)
+
+
+## Parallel vs Async vs Concurrency
