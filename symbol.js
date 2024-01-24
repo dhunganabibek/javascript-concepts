@@ -1,11 +1,26 @@
-const one = Symbol();
-const two = Symbol();
-const three = Symbol('Test');
-const four = Symbol('Test');
+const gamma = Symbol("gamma");
+
+const enumObj = {
+    alpha: "alpha",
+    beta: "Beta",
+    [gamma] : "gamma"
+}
+
+console.log(enumObj);
+
+console.log(Object.keys(enumObj))
 
 
-console.log(typeof one);
-console.log(three == four);
-console.log(three);
-console.log(three.toString());
+
+
+// const one = Symbol();
+// const two = Symbol();
+// const three = Symbol('Test');
+// const four = Symbol('Test');
+
+
+// console.log(typeof one);
+// console.log(three == four);
+// console.log(three);
+// console.log(three.toString());
 
