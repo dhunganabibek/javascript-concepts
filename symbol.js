@@ -1,14 +1,29 @@
-const gamma = Symbol("gamma");
+ 
+ // create symbol in global registry
+ const one = Symbol.for("hello");
+ const two = Symbol.for("hello");
 
-const enumObj = {
-    alpha: "alpha",
-    beta: "Beta",
-    [gamma] : "gamma"
-}
 
-console.log(enumObj);
+ console.log(one == two)
 
-console.log(Object.keys(enumObj))
+
+
+
+
+
+
+
+// const gamma = Symbol("gamma");
+
+// const enumObj = {
+//     alpha: "alpha",
+//     beta: "Beta",
+//     [gamma] : "gamma"
+// }
+
+// console.log(enumObj);
+
+// console.log(Object.keys(enumObj))
 
 
 
