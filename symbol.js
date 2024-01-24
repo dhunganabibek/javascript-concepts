@@ -1,10 +1,29 @@
- 
- // create symbol in global registry
- const one = Symbol.for("hello");
- const two = Symbol.for("hello");
+console.log(Symbol.hasInstance);
+
+class Alpha {
+
+}
+
+class Beta {
+
+}
+
+const alpha = new Alpha();
+const beta = new Beta();
+
+console.log(alpha instanceof Alpha);
+console.log(alpha  instanceof Beta);
+
+console.log(Alpha[Symbol.hasInstance](alpha))
+console.log(Alpha[Symbol.hasInstance](beta))
 
 
- console.log(one == two)
+//  // create symbol in global registry
+//  const one = Symbol.for("hello");
+//  const two = Symbol.for("hello");
+
+
+//  console.log(one == two)
 
 
 
