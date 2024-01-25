@@ -1,0 +1,1 @@
+// string, number, bigint, boolean, undefined, null, symbol
