@@ -1,18 +1,18 @@
-const date = new Date("2023-02-06T18:00:00Z");
+// const date = new Date("2023-02-06T18:00:00Z");
 
-// const [year, month, day, hour, minute, second] = [date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()];
+// // const [year, month, day, hour, minute, second] = [date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), date.getMinutes(), date.getSeconds()];
+// // console.log({year, month, day, hour, minute, second});
+
+
+// const [year, month, day, hour, minute, second] = [date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds()];
 // console.log({year, month, day, hour, minute, second});
 
 
-const [year, month, day, hour, minute, second] = [date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds()];
-console.log({year, month, day, hour, minute, second});
 
 
 
 
-
-
-
+console.log(new Date().getTimezoneOffset());
 
 
 
