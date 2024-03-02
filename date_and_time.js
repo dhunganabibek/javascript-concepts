@@ -12,7 +12,8 @@
 
 
 
-console.log(new Date().getTimezoneOffset());
+console.log(new Date());
+console.log(new Date().getDate());
 
 
 
