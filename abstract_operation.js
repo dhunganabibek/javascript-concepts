@@ -18,8 +18,18 @@
 // console.log(hello.valueOf());
 // console.log(hello);
 
-console.log(Number(undefined));
+// console.log(Number(undefined));
 
-// falsy value in javascript "" false 0, -0 , null, undefined, NaN
+// // falsy value in javascript "" false 0, -0 , null, undefined, NaN
 
-console.log(Boolean([]));
+// console.log(String(() => "Hello"));
+
+// console.log(+"12 heloo1");
+// console.log(Number.parseInt("12 hello1"));
+// console.log(+(() => "Hello"));
+
+// console.log(3 - "2Hello");
+// //
+
+//
+console.log(![]);
