@@ -9,3 +9,9 @@ function Test() {
 Test();
 
 (() => console.log("IFFE"))();
+
+sayHello();
+
+const sayHello = function sayHello() {
+  console.log("hello");
+};
