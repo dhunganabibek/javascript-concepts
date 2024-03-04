@@ -1,4 +1,5 @@
-var test = "Test";
+"use strict";
+test = "Test";
 
 function Test() {
   test = "hello";
