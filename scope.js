@@ -1,11 +1,11 @@
 "use strict";
-test = "Test";
+var test = "Test";
 
 function Test() {
-  test = "hello";
-  topic = "react";
+  var test = "hello";
+  var topic = "react";
 }
 
 Test();
 
-console.log(topic);
+(() => console.log("IFFE"))();
