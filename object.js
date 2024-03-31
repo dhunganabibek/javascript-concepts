@@ -1,11 +1,13 @@
-const obj = { a: "old" };
-obj.b = "old";
+function Point(x, y) {
+  this.x = 0;
+  this.y = 0;
 
-Object.defineProperty(obj, "c", {
-  value: "old",
-  writable: false,
-});
-
-for (const key in obj) {
-  console.log(key);
+  this.setTo = function (x, y) {
+    this.x = x;
+    this.y = y;
+  };
 }
+
+let p1 = new Point(1, 2);
+p1.setTo(0, 0);
+console.log(p1);
