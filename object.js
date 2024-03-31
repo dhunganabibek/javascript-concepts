@@ -1,15 +1,11 @@
-let point = { x: 0, y: 0 };
+const obj = { a: "old" };
+obj.b = "old";
 
-const result = delete point.x;
-console.log(result);
-// const name = "x";
-// console.log(point[name]);
-// console.log(point.x);
-// console.log(point["y"]);
+Object.defineProperty(obj, "c", {
+  value: "old",
+  writable: false,
+});
 
-// const lang = {
-//   name: "JavaScript",
-//   yearReleased: 1995,
-// };
-
-// console.log(lang["na" + "me"]);
+for (const key in obj) {
+  console.log(key);
+}
