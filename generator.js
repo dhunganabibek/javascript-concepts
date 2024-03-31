@@ -12,3 +12,5 @@ console.log(true + "Hello");
 
 const obj = { a: 1, b: 2, c: 3 };
 console.log("d" in obj);
+
+console.log(0 || 4);
