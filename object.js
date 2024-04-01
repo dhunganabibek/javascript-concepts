@@ -1,8 +1,5 @@
-let workshop = {
-  teacher: "Kyle",
-  ask(question) {
-    console.log(this.teacher, question);
-  },
-};
+function Workshop(teacher) {
+  this.teacher = teacher;
+}
 
-setTimeout(workshop.ask.bind(workshop), 10, "Are you lost?");
+console.log(Workshop.prototype.constructor == Workshop);
