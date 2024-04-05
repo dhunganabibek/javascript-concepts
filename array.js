@@ -5,3 +5,9 @@ Array.prototype[Symbol.inspect] = () => "Array";
 
 const a = [1, 2, 3];
 console.log(a.concat(4, 5, [6, [`7`]]));
+
+const func = {
+  name: "a",
+};
+
+const result = func();
