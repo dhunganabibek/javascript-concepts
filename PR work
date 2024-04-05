@@ -1,8 +1,7 @@
-1. scheduled date and time logic fixed.
-2. Work related to Custom Alert.
-3. Work related to Equipment Editor.
-4. update publish draft to prevent sql injection.
-5. some css update in L1 including table.
-6. used typescript for tailwind config.
-7. displayed message about alert in QA and staging environment
-8. Other eslint fixes.
+1. Work related to Custom Alert.
+2. Work related to Equipment Editor.
+3. update publish draft to prevent sql injection.
+4. some css update in L1 including table.
+5. used typescript for tailwind config.
+6. displayed message about alert in QA and staging environment
+7. Other eslint fixes.
