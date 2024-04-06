@@ -11,3 +11,4 @@ const func = {
 };
 
 const result = func();
+console.log(result);
