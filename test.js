@@ -1,11 +1,15 @@
-"use strict";
-foo();
+console.log(typeof null);
+console.log(typeof undefined);
+console.log(typeof 1);
+console.log(typeof true);
+console.log(typeof "Bibek");
+console.log(typeof Symbol());
+console.log(typeof { name: "Bibek" });
+console.log(typeof [1, 2, 3]);
 
-function foo() {
-  console.log(arguments);
-  console.log(this);
-  console.log("foo");
-}
+function test(a, b) {}
+console.log(test.length);
 
-const result = foo("Bibek");
-console.log(result);
+const t = {};
+
+console.log(t.length);
