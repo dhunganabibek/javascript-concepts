@@ -5,4 +5,8 @@ const workshop = {
   },
 };
 
-workshop.ask("What is implicit binding?"); // Kyle What is implicit binding?
+setTimeout(function () {
+  workshop.ask("Still losing this");
+}, 1000);
+
+setTimeout(workshop.ask.bind(workshop), 2000, "Still losing this");
