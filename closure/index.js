@@ -1,6 +1,6 @@
-for (var i = 0; i < 3; i++) {
-  let j = i;
-  setTimeout(function () {
-    console.log(j);
-  }, 1000);
-}
+const { PI } = require("./math.js");
+require("./math.js");
+require("./math.js");
+
+console.log(PI);
+console.log("Hello from index.mjs!");
