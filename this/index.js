@@ -1,8 +1,3 @@
-class Workshop {
-  constructor(teacher) {
-    this.teacher = teacher;
-  }
-  ask(question) {
-    console.log(this.teacher, question);
-  }
-}
+console.log(Object);
+console.log(Object.prototype.constructor === Object);
+console.log(Object.__proto__ === Function.prototype);
