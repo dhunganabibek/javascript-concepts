@@ -1,5 +1,8 @@
-function test() {
-  console.log("test");
+class Workshop {
+  constructor(teacher) {
+    this.teacher = teacher;
+  }
+  ask(question) {
+    console.log(this.teacher, question);
+  }
 }
-
-console.log(test());
